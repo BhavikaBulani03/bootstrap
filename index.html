@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tintin Shop⭐⭐</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <form action="confirmation.html" class="needs-validation" method="post" novalidate >
+      <div class="container-sm justify content-center  bg-black">
+        <h1 class="display-4 text-info text-opacity-50">T-shirt Booking Details</h1>
+        <div class="row">
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputName">First Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="FirstName"  name="FirstName" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputLName">Last Name</label>
+        <input type="text" class="form-control" id="inputLName" placeholder="Last Name" name="LastName" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="Email" required>
+        <div class="invalid-feedback">Please enter a valid email address.</div>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputmob">Mobile Number</label>
+        <input type="number" class="form-control" id="inputmob" placeholder="Mobile Number" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputaddress">Shipping Address</label>
+        <input type="text" class="form-control" id="inputaddress" placeholder="Shipping Address" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputcity">City</label>
+        <input type="text" class="form-control" id="inputcity" placeholder="City" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputpin">PinCode</label>
+        <input type="number" class="form-control" id="inputpin" placeholder="Pin Code" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="inputcountry">Country</label>
+        <input type="text" class="form-control" id="inputcountry" placeholder="Country" required>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label for="validationCustom04" class="form-label">Size</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option value="1">XS</option>
+          <option value="2">S</option>
+          <option value="3">M</option>
+          <option value="4">L</option>
+          <option value="5">XL</option>
+          <option value="6">XXL</option>
+          <option value="7">XXXL</option>
+        </select>
+        <div class="invalid-feedback">Please select the size.</div>
+      </div>
+
+      <div class="col align self center col-6 text-info">
+        <label for="validationCustom04" class="form-label">Color</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option value="1">Red</option>
+          <option value="2">Blue</option>
+          <option value="3">Lavender</option>
+          <option value="4">Sky-Blue</option>
+          <option value="5">Purple</option>
+          <option value="6">Pink</option>
+          <option value="7">Maroon</option>
+        </select>
+        <div class="invalid-feedback">Please select the color.</div>
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label for="validationCustom04" class="form-label">Tagline</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option value="1">My Eyes Are Up Here</option>
+          <option value="2">I Do What The Voices In My Head Tell Me</option>
+          <option value="3">Free Hugs</option>
+          <option value="4">I’m In Shape, Round Is A Shape</option>
+          <option value="5">ALL I LOVE IS COFFEE!</option>
+          <option value="6">BUT FIRST COFFEE!</option>
+          <option value="7">LIVE AND LET LIVE!</option>
+        </select>
+        <div class="invalid-feedback">Please select the Tagline.</div>
+      </div>
+
+      <div class="col align self center col-6 text-info">
+        <label for="validationCustom04" class="form-label">Quantity</label>
+        <select class="form-select" id="validationCustom04" name="Quantity" required>
+          <option selected disabled value="">Choose...</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          </select>
+          <div class="invalid-feedback">Please select the Quantity.</div>
+
+      </div>
+      <div class="col align self center col-6 text-info">
+        <label class="form-label" for="Date">Date Of Delivery</label>
+        <input type="date" class="form-control" name="DOD" placeholder="Enter the preferred date:" required />
+      </div>
+      <div class="col-md-6 offset-md-5 py-5">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+
+    </form>
+    <script>
+      // Self-executing function
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+
+
+      })();
+    </script>
+
+</body>
+
+</html>
